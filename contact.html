@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Location — ARCH Café</title>
+    <!-- Google Fonts: Cormorant Garamond (Editorial Serif), Inter (Minimalist Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="subpage">
+
+    <!-- MAIN HEADER NAVIGATION -->
+    <header class="site-header">
+        <div class="logo"><a href="index.html">ARCH</a></div>
+        <nav class="nav-links">
+            <a href="index.html" class="nav-item">The Space</a>
+            <a href="coffee.html" class="nav-item">Coffee Origins</a>
+            <a href="pizza.html" class="nav-item">Sourdough Pizza</a>
+            <a href="pastries.html" class="nav-item">Cookies & Biscuits</a>
+            <a href="details.html" class="nav-item">Details</a>
+            <a href="contact.html" class="nav-item active">Contact</a>
+            <a href="reserve.html" class="nav-item-btn">Reserve</a>
+        </nav>
+    </header>
+
+    <!-- SECTION: CONTACT & SANCTUARY HOURS -->
+    <section class="contact-section subpage-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <div class="contact-info scroll-fade visible">
+                    <span class="section-tag">Sanctuary Hours</span>
+                    <h2>Location & Operation</h2>
+                    
+                    <div class="contact-details-list">
+                        <div class="contact-detail-item">
+                            <span class="detail-label">Location</span>
+                            <p class="detail-content">14, Graham Road, Ballard Estate, Fort, Mumbai 400001</p>
+                        </div>
+                        <div class="contact-detail-item">
+                            <span class="detail-label">Operating Hours</span>
+                            <p class="detail-content">Monday — Sunday // 08:00 AM — 10:00 PM</p>
+                        </div>
+                        <div class="contact-detail-item">
+                            <span class="detail-label">Communication</span>
+                            <p class="detail-content">Support: +91 22 6982 2026<br>Email: curator@archcafe.in</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Maps Real Interactive Card -->
+                <div class="map-card-wrap scroll-fade visible">
+                    <div class="map-card-header">
+                        <span>Interactive Map Coordinates</span>
+                        <span class="coord-val">18°56'40"N 72°50'13"E</span>
+                    </div>
+                    <div class="map-canvas-real">
+                        <iframe class="real-map-iframe" 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.9558117769974!2d72.83693247599026!3d18.944365382235948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1c67d6439ad%3A0xc3cb7cfb3dd6a51!2sBallard%20Estate%2C%20Fort%2C%20Mumbai%2C%20Maharashtra%20400001!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="map-card-footer">
+                        <i data-lucide="map-pin"></i>
+                        <span>Graham Road, near Ballard Pier. Drag and zoom to navigate.</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <span class="logo"><a href="index.html">ARCH</a></span>
+                <p class="address">Ballard Estate, Fort, Mumbai 400001</p>
+            </div>
+            <div class="footer-right">
+                <p class="copyright">© 2026 ARCH Café. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Application scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
